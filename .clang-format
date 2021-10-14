@@ -1,0 +1,24 @@
+---
+Language: Cpp
+AccessModifierOffset: -2
+ColumnLimit: 120
+DerivePointerAlignment: false
+PointerAlignment: Left
+SortIncludes: true
+IndentWidth: 2
+NamespaceIndentation: Inner
+AlwaysBreakTemplateDeclarations: true
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false
+IndentCaseBlocks: false
+IndentCaseLabels: true
+...
+
+---
+Language: Proto
+ColumnLimit: 120
+SpacesInContainerLiterals: false
+AllowShortFunctionsOnASingleLine: None
+ReflowComments: false
+...

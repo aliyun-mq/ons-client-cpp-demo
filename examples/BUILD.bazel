@@ -1,0 +1,81 @@
+load("@rules_cc//cc:defs.bzl", "cc_binary")
+
+cc_binary(
+    name = "example_producer",
+    srcs = [
+        "ExampleProducer.cpp",
+    ],
+    deps = [
+        "@com_aliyun_ons_client_cpp//src/main/cpp/ons:ons_library",
+    ],
+)
+
+cc_binary(
+    name = "example_oneway_producer",
+    srcs = [
+        "ExampleOnewayProducer.cpp",
+    ],
+    deps = [
+        "@com_aliyun_ons_client_cpp//src/main/cpp/ons:ons_library",
+    ],
+)
+
+cc_binary(
+    name = "example_async_producer",
+    srcs = [
+        "ExampleAsyncProducer.cpp",
+    ],
+    deps = [
+        "@com_aliyun_ons_client_cpp//src/main/cpp/ons:ons_library",
+    ],
+)
+
+cc_binary(
+    name = "example_push_consumer",
+    srcs = [
+        "ExamplePushConsumer.cpp",
+    ],
+    deps = [
+        "@com_aliyun_ons_client_cpp//src/main/cpp/ons:ons_library",
+    ],
+)
+
+cc_binary(
+    name = "example_order_producer",
+    srcs = [
+        "ExampleOrderProducer.cpp",
+    ],
+    deps = [
+        "@com_aliyun_ons_client_cpp//src/main/cpp/ons:ons_library",
+    ]
+)
+
+cc_binary(
+    name = "example_transaction_producer",
+    srcs = [
+        "ExampleTransactionProducer.cpp",
+    ],
+    deps = [
+        "@com_aliyun_ons_client_cpp//src/main/cpp/ons:ons_library",
+    ],
+)
+
+cc_binary(
+    name = "example_timed_message",
+    srcs = [
+        "ExampleTimedMessage.cpp",
+    ],
+    deps = [
+        "@com_aliyun_ons_client_cpp//src/main/cpp/ons:ons_library",
+    ],
+)
+
+cc_binary(
+    name = "example_order_push_consumer", 
+    srcs = [
+        "ExampleOrderPushConsumer.cpp",
+    ],
+    deps = [
+        "@com_aliyun_ons_client_cpp//src/main/cpp/ons:ons_library",
+    ],
+)

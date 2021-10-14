@@ -1,0 +1,4 @@
+bazel-bin
+bazel-ons-client-cpp-demo
+bazel-out
+bazel-testlogs
