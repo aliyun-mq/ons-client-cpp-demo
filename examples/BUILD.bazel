@@ -79,3 +79,14 @@ cc_binary(
         "@com_aliyun_ons_client_cpp//src/main/cpp/ons:ons_library",
     ],
 )
+
+
+cc_binary(
+    name = "example_broadcasting_push_consumer", 
+    srcs = [
+        "ExampleBroadcastingPushConsumer.cpp",
+    ],
+    deps = [
+        "@com_aliyun_ons_client_cpp//src/main/cpp/ons:ons_library",
+    ],
+)
