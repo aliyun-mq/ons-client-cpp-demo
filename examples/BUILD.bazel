@@ -90,3 +90,13 @@ cc_binary(
         "@com_aliyun_ons_client_cpp//src/main/cpp/ons:ons_library",
     ],
 )
+
+cc_binary(
+    name = "example_push_consumer_with_throttle",
+    srcs = [
+        "ExamplePushConsumerWithThrottle.cpp",
+    ],
+    deps = [
+        "@com_aliyun_ons_client_cpp//src/main/cpp/ons:ons_library",
+    ],
+)

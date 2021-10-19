@@ -17,3 +17,5 @@ bazel build //examples/...
    ```bash
    bazel run //examples:example_push_consumer
    ``` 
+
+   3. To run other examples, figure out names of targets in [BUILD.bazel](examples/BUILD.bazel), aka, name of the cc_binary, then execute them as the previous two.
