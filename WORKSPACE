@@ -4,11 +4,12 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 http_archive(
     name = "com_aliyun_ons_client_cpp",
-    sha256 = "1436dddc9d6668f5597447780ab3a9cf0c95698806cbf2efc86e82cefe754bfc",
+    sha256 = "9277a8f7f8dfdf3f6e16f9b5858ca10e215c8f169ee77e4cb7e2c0db295a7c72",
     urls = [
-        "https://github.com/aliyun-mq/ons-client-cpp/archive/refs/tags/v1.0-alpha6.tar.gz",
+        "https://ons-client-sdk.oss-cn-hangzhou.aliyuncs.com/ons-client-cpp/source/ons-client-cpp-3.0.0.tar.gz",
+        "https://github.com/aliyun-mq/ons-client-cpp/archive/refs/tags/v3.0.0.tar.gz",
     ],
-    strip_prefix = "ons-client-cpp-1.0-alpha6",
+    strip_prefix = "ons-client-cpp-3.0.0",
 )
 
 load("@com_aliyun_ons_client_cpp//bazel:deps.bzl", "ons_deps")
